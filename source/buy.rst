@@ -21,7 +21,7 @@ Buy pixels
 
 - Go to TheMillionEtherHomepage.com/[somereferral] in your web browser and hover your cursor over a block.
 
-- Remember block coordinates shown in square brackets.
+- Find block coordinates shown in square brackets.
 
 .. image:: /img/browser_coordinates.png
 
@@ -59,7 +59,7 @@ Buy pixels
 
 .. note::
 
-	To see your info written to the blockchain wait a couple of seconds until your transaction is mined (approx. 15 seconds for the Ethereum blockchain as of 11.20.2016). Go to Contracts -> My Million Ether -> Read from contract ->  Get block info type your coordinates and make sure your address appears. 
+	To see your info written to the blockchain wait a couple of seconds until your transaction is mined (approx. 15 seconds for the Ethereum blockchain as of 12.14.2016). Go to Contracts -> My Million Ether -> Read from contract ->  Get block info type your coordinates and make sure your address appears. 
 
 Now you can place your ad (scroll down for instructions) or chose to :ref:`sell blocks <sell>` later.
 
@@ -77,7 +77,7 @@ As the most parts of this project image storage is decentralized. It is currentl
 
 	Please upload images with width and height corresponding to the pixels you bought otherwise cropping will occur (e.g. if you bought blocks from [1:1] to [1:2], upload two 10x10 px images or one 10x20 px image).
 
-- Hover over the image, right-click and select **Copy image location**. You need a direct link - the one wnich ends with .jpg or .png. 
+- Hover over the image, right-click and select **Copy image location**. You need a direct link - the one which ends with .jpg or .png. 
 
 .. image:: /img/imgur.jpg
 

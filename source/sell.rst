@@ -1,7 +1,7 @@
 .. _sell:
 
 ###########
-Sell pixels
+SELL PIXELS
 ###########
 
 Sell pixels to anybody. Just set the price. Buying process for the buyer will look exactly the same as if he bought it at the initial sale. You get all the money (no fees). 
@@ -15,6 +15,6 @@ From x, From y, To x, To y
 Price for each block in wei
 	type the price for each block you are selling in wei - ether smallest denomination (`Unit converter <http://ether.fund/tool/converter>`_). 
 
-.. image:: /img/powered_by_ethereum.png
+.. image:: /img/sell_blocks.jpg 
 
 *e.g. If you would like to sell two blocks from [1:1] to [1:2] for 20 ETH total set the Price for each block in wei to 10000000000000000000 (which is 20/2 * 10^18)*

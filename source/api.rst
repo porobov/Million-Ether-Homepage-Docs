@@ -13,4 +13,8 @@ Here are few ideas:
 	- Lending pixels
 	- Exchange (landlord contacts and pixel prices)
 
-All contract information is readable through public functions and events. Please see the contract (todo link) for details. 
+All contract information is readable through public functions and events. Please see the contract for details. 
+
+`Million Ether contract at Etherscan.io <https://etherscan.io/address/0x15dbdB25f870f21eaf9105e68e249E0426DaE916/>`_
+
+`Million Ether contract at Github <https://github.com/porobov/MillionEtherHomepage/>`_

@@ -1,10 +1,11 @@
-PROJECT DESCRIPTION
-===================
+===========
+WHITE PAPER
+===========
 
 **TheMillionEtherHomepage.com** is a decentralized advertising platform based on the blockchain technology.
 
-Main features:
---------------
+Main features
+-------------
 
 1. 1000х1000 pixels field. 
 2. Pixels may be bought, sold or used to place ads. 
@@ -78,3 +79,8 @@ With every handshake far from the Root (Admin) user activation time increases by
 
 We believe it also brings us closer to our side goal - the small world experiment on blockchain. `More on the small world experiment <https://en.wikipedia.org/wiki/Small-world_experiment/>`_
 
+Links
+-----
+`Million Ether contract at Etherscan.io <https://etherscan.io/address/0x15dbdB25f870f21eaf9105e68e249E0426DaE916/>`_
+
+`Million Ether contract at Github <https://github.com/porobov/MillionEtherHomepage/>`_

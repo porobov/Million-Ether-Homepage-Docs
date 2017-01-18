@@ -84,3 +84,7 @@ Links
 `Million Ether contract at Etherscan.io <https://etherscan.io/address/0x15dbdB25f870f21eaf9105e68e249E0426DaE916/>`_
 
 `Million Ether contract at Github <https://github.com/porobov/MillionEtherHomepage/>`_
+
+`Million Ether at Reddit <https://www.reddit.com/r/MillionEther/>`_
+
+`The Million Ether Smart Contract - sign in instructions (7:24) <https://youtu.be/0HR4N9lEc2I>`_

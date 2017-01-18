@@ -10,6 +10,10 @@ Sign in (become a referral)
 
 You need to sign in only once. 
 
+**Video:**
+
+`The Million Ether Smart Contract - sign in instructions (7:24) <https://youtu.be/0HR4N9lEc2I>`_
+
 **Signing in requires 2 steps:**
 
 1. Start watching the MillionEther smart contract.
@@ -94,6 +98,9 @@ Now you can share your link and start earning ether!
 Invite people
 *************
 
+**Video:**
+
+`The Million Ether Smart Contract - sign in instructions (7:24) <https://youtu.be/0HR4N9lEc2I>`_
 
 **1. Sign in if you haven't yet** - :ref:`Sign in <sign-in>` 
 

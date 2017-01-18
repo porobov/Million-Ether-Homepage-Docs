@@ -23,7 +23,7 @@ Buy pixels
 
 - Find block coordinates shown in square brackets.
 
-.. image:: /img/browser_coordinates.png
+.. image:: img/browser_coordinates.png
 
 .. note::
 
@@ -37,7 +37,7 @@ Buy pixels
 *From x, From y, To x, To y*
 	Type “from block” and “to block” coordinates if you are buying several blocks. If you would like to buy just one block (10x10 pixels) type the same from and to coordinates (e.g. From x 1, From y 2, To x 1, To y  2). 
 
-.. image:: /img/block_price.png
+.. image:: img/block_price.png
 
 *In this example 4 blocks (20x20 pixels) in the left upper corner are bought. The price here is 4 ETH (Ethereum Wallet shows it in wei by default).*
 
@@ -51,7 +51,7 @@ Buy pixels
 
 - Type in the same coordinates and price as in the previous step, click Execute and confirm the transaction. Here unlike previous step we buy just 1 block with coordinates [19,19].
 
-.. image:: /img/buy_blocks.png
+.. image:: img/buy_blocks.png
 
 .. note::
 
@@ -79,7 +79,7 @@ As the most parts of this project image storage is decentralized. It is currentl
 
 - Hover over the image, right-click and select **Copy image location**. You need a direct link - the one which ends with .jpg or .png. 
 
-.. image:: /img/imgur.jpg
+.. image:: img/imgur.jpg
 
 - Go to Contracts -> My Million Ether -> WRITE TO CONTRACT -> Select function -> Place Image.
 
@@ -95,7 +95,7 @@ Ad text
 Send Ether
 	leave 0
 
-.. image:: /img/place_ads.jpg 
+.. image:: img/place_ads.jpg 
 
 *In this example an ad occupying 4 blocks (20x20 pixels) is submitted.*	
 

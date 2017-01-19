@@ -87,4 +87,8 @@ Links
 
 `Million Ether at Reddit <https://www.reddit.com/r/MillionEther/>`_
 
-`The Million Ether Smart Contract - sign in instructions (7:24) <https://youtu.be/0HR4N9lEc2I>`_
+`The Million Ether Smart Contract - sign in instructions (7:24) <https://youtu.be/oSwffa3tUNI>`_
+
+`The Million Ether Smart Contract - place ads (3:12) <https://youtu.be/mTgXJVlBVdI>`_
+
+`The Million Ether Smart Contract - buy pixels (4:45) <https://youtu.be/TzghOMKLVOg>`_

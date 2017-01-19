@@ -12,7 +12,7 @@ You need to sign in only once.
 
 **Video:**
 
-`The Million Ether Smart Contract - sign in instructions (7:24) <https://youtu.be/0HR4N9lEc2I>`_
+`The Million Ether Smart Contract - sign in instructions (7:24) <https://youtu.be/oSwffa3tUNI>`_
 
 **Signing in requires 2 steps:**
 
@@ -100,7 +100,7 @@ Invite people
 
 **Video:**
 
-`The Million Ether Smart Contract - sign in instructions (7:24) <https://youtu.be/0HR4N9lEc2I>`_
+`The Million Ether Smart Contract - sign in instructions (7:24) <https://youtu.be/oSwffa3tUNI>`_
 
 **1. Sign in if you haven't yet** - :ref:`Sign in <sign-in>` 
 
@@ -142,3 +142,13 @@ In a couple of minutes (depending on block mining speed) your should be able to 
 .. note::
 
 	Make sure to have at least 0,003 ether on your account as even withdrawing funds requires a little ammount of gas.
+
+
+********************************
+Third party instructions, videos
+********************************
+
+`The Million Ether Smart Contract - sign in instructions (7:24) <https://youtu.be/oSwffa3tUNI>`_
+
+`How To: Use Million Ether - Smartcontract via MetaMask and MyEtherWallet <http://digitalsmartcoin.tumblr.com/post/155770225074/how-to-use-million-ether-ads-invest>`_
+

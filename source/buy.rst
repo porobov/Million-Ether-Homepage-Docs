@@ -15,6 +15,10 @@ There are 3 steps:
 Buy pixels
 **********
 
+**Video:**
+
+`The Million Ether Smart Contract - buy pixels (4:45) <https://youtu.be/TzghOMKLVOg>`_
+
 .. _coordinates:
 
 **1. Decide with the coordinates you would like to buy.**
@@ -67,6 +71,10 @@ Now you can place your ad (scroll down for instructions) or chose to :ref:`sell 
 Place ads
 *********
 
+**Video:**
+
+`The Million Ether Smart Contract - place ads (3:12) <https://youtu.be/mTgXJVlBVdI>`_
+
 As the most parts of this project image storage is decentralized. It is currently too expensive to place images within the blockchain we use imgur.com for image hosting. It is free and easy to use. 
 
 **1. Upload your image to imgur.com.**
@@ -110,3 +118,11 @@ Send Ether
 	To see your info written to the blockchain wait a couple of seconds until your transaction is mined (approx. 15 seconds for the Ethereum blockchain as of 11.17.2016). Go to Contracts -> My Million Ether -> Read from contract ->  Get block info type your coordinates and copy Image id. Go to  Contracts -> My Million Ether -> Read from contract ->  Get image info and paste your image id. 
 
 In a couple of minutes your ad will appear at TheMillionEtherHomepage.com.
+
+******
+Videos
+******
+
+`The Million Ether Smart Contract - buy pixels (4:45) <https://youtu.be/TzghOMKLVOg>`_
+
+`The Million Ether Smart Contract - place ads (3:12) <https://youtu.be/mTgXJVlBVdI>`_

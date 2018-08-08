@@ -15,34 +15,6 @@ Interaction with the platform is done through **MillionEther smart contract** si
 
 `More on smart contracts <http://blockgeeks.com/guides/smart-contracts-the-blockchain-technology-that-will-replace-lawyers/>`_
 
-6 handshakes 
-------------
-The most important feature of the platform is that income is decentralized and goes entirely to referrals (and charity).
-
-It is invitation only. The referral link is needed to sign in and to buy pixels (place ads). Once you sign in you get your own referral link and may start sharing it. When anybody buys pixels the chain of referrals (handshakes) which led to the buyer gets all the money. The referral closest to the buyer (1 handshake) gets 50% of the purchase price, next one (2 handshakes) gets 25%, next (3 handshakes) 12,5% and so on.
-
-.. image:: /img/net.jpg
-
-**Example:**
-
-*Bob signs in and receives his personal link  themillionetherhomepage.com/0xf39d..0b1cf78. He writes a blog post where he shares his link. Alice reads the Bob's post and uses his link to sign in to the platform. Alice gets her personal link and sends it to Mike. Mike signs in and decides that it's a perfect chance to advertise his product. Mike buys 100 pixels for 100 ETH. Alice gets 50 ETH, Bob gets 25 ETH. Bob gets another 12,5 ETH as July uses his link to sign in, invites Sam and Sam buys 50 pixels for 50 ETH.*
-
-**Payout chain is maximum 6 levels deep (6 handshakes).**
-
-If the chain reaches 6 handshakes length the last referral on the chain gets 1,5625% of the purchase price and remaining 1,5625% is donated to charity. 
-
-.. image:: /img/long-chain.jpg
-
-**A chain shorter than 6 handshakes ends with Administrator's account.** 
-
-Administrator gets payed by the same principle as any other referral. This is the only income of the project, which is needed to support off chain infrastructure (maintaining website and pushing data to it require some USD).
-
-.. image:: /img/short-chain.jpg
-
-The shorter the chain the more money you get and the more money is sent to charity. So please find the most effective routes.
-
-:ref:`How to sign <sign-in>`
-
 Buying pixels
 -------------
 Pixels are available in 10x10 pixel blocks. Once you buy a block (or blocks), you may put an ad (image with a link and description) within that block (or blocks) or decide to sell it later.

@@ -20,5 +20,8 @@ User activation time
 Charity address 
 	is empty by default. Until a charity address is set all donations accumulate within the contract. After a charity address is set it receives charity funds. Admin is allowed to set charity address. The voting for the address will be held off chain as it is simpler than implementing voting logic within the contract. Admin has too little incentive to cheat on that.
 
-Image placement price 
-	is set to 0 by default. As placing images requires off chain computations (paid in USD) administrator is allowed to set this price. It depends on the number of website visitors, the number of times landlords reload their ads and how much reward the Root (Admin) account gets (i.e. average number of handshakes). Hopefully the price will be 0 forever. 
+Image placement price
+    is set to 0 by default. Please note that the smart contract owner is allowed to set this fee if needed in the future (as it requires fiat to host the website).
+
+
+More detalis to come soon. For now please see the code comments.

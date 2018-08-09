@@ -7,10 +7,13 @@ Contents:
    :maxdepth: 2
 
    whitepaper
-   earn
+   interface
    buy
    sell
-   api
+   rent_out
+   rent
+   ads
+   withdraw
    security
    policies
    admin

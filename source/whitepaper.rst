@@ -1,66 +1,72 @@
 ===========
-WHITE PAPER
+LIGHT PAPER
 ===========
 
-**TheMillionEtherHomepage.com** is a decentralized advertising platform based on the blockchain technology.
+**TheMillionEtherHomepage.com** is a decentralized advertising platform based on Ethereum blockchain.
 
 Main features
 -------------
+1. A 1000x1000 pixel field is displayed at `TheMillionEtherHomepage.com <http://themillionetherhomepage.com/>`_
+2. **Buy, sell, rent or rent out pixels** and **place ads** within owned or rented area.
+3. **Price doubles** every 10% of pixels sold. Starting price is $1 per 10x10 pixel block.
+4. 80% of initial sale income goes to charity.
+5. A 10x10 pixel block is immutable **ERC721 token**.
 
-1. 1000х1000 pixels field. 
-2. Pixels may be bought, sold or used to place ads. 
-3. Income is decentralized and shared between referrals (and charity). 
-
-Interaction with the platform is done through **MillionEther smart contract** sitting in the Ethereum blockchain. Which means there is no need to trust anybody as the contract code is open. TheMillionEtherHomepage.com is just the representation of what is happening in the smart contract.
+Interaction with the platform is done through **MillionEther smart contract** sitting in the Ethereum blockchain. `TheMillionEtherHomepage.com <http://themillionetherhomepage.com/>`_ is just the representation (one of many possible) of what is happening in the smart contract.
 
 `More on smart contracts <http://blockgeeks.com/guides/smart-contracts-the-blockchain-technology-that-will-replace-lawyers/>`_
 
 Buying pixels
 -------------
-Pixels are available in 10x10 pixel blocks. Once you buy a block (or blocks), you may put an ad (image with a link and description) within that block (or blocks) or decide to sell it later.
-
-:ref:`How to buy pixels and place ads<buy>`
-
-Selling pixels (Investment  opportunity)
-----------------------------------------
-The initial purchase price doubles with every 100 000 pixels sold. If you buy pixels early you can have significant profit selling them later (no fees here). All you have to do is set your price.
-
-:ref:`How to sell pixels <sell>`
-
-Placing ads
------------
-An ad is an image with description and a link to your website. The minimum image size is 10x10 pixels. You can place as many images as you can fit within owned area. You can also replace images unlimited number of times. Description is 140 characters long. 
-
-:ref:`How to buy pixels and place ads<buy>`
-
-*The fee for placing ads is currently set to 0. Please note that the smart contract administrator is allowed to set this fee if needed in the future (as it requires off chain computations to push images to the website). For details see* :ref:`Admin privileges <admin>`
-
-*Please read the rules for images allowed on the platform:* :ref:`Advertising policies <policies>`
-
-Pixel price
------------
-The pixel price doubles with every 100 000 pixels sold. This allows investment opportunities and rewards early birds. 
+Pixels are available in 10x10 pixel blocks at initial sale (USD price doubles every 10% of pixels sold). Pixels are also available from owners willing to sell. Owners define their own price in ETH. Once you buy an area of blocks, you can put an ad (image with a link and description) within that area, rent it out or sell it when the price goes up.
 
 .. image:: /img/pixel-price.jpg
 
-.. _activation:
+*The pixel price doubles every 10% of pixels sold. This allows investment opportunities and rewards early birds.*
 
-User activation time
---------------------
-With every handshake far from the Root (Admin) user activation time increases by 2 being 1, 2, 4, 8, 16 hours and so on. We encourage shorter (and faster) chains to increase charity donations, project support and referrals incomes (by preventing  one user with many accounts filling up the whole referral chain and get all the  income). 
+:ref:`How to buy pixels <buy>`
 
-We believe it also brings us closer to our side goal - the small world experiment on blockchain. `More on the small world experiment <https://en.wikipedia.org/wiki/Small-world_experiment/>`_
+Selling pixels
+--------------
+If you own an area you can sell it for any price (in ETH). If you buy pixels early you can have significant profit selling them later with no fees applied.
+
+:ref:`How to sell pixels <sell>`
+
+Renting out pixels
+------------------
+If you own an area you can rent it out for any price per period (in ETH). One period is 24 hours. Renters will be able to place (and replace) their ads within rented area.
+
+:ref:`How to rent out pixels <rent_out>`
+
+Renting pixels
+--------------
+If an area of blocks is avalable for rent, you can rent this area for a specified number of 24-hour periods. You can place (and replace) your ads within rented area until rent is up.
+
+:ref:`How to rent pixels <rent>`
+
+Placing ads
+-----------
+An ad is an image with description and a link to your website. You can place as many images as you can fit within owned area. You can also replace images unlimited number of times. Description is 140  characters long.
+
+:ref:`How to place ads <ads>`
+
+*Please read the rules for images allowed on the platform:* :ref:`Advertising policies <policies>`
 
 Links
 -----
-`Million Ether contract at Etherscan.io <https://etherscan.io/address/0x15dbdB25f870f21eaf9105e68e249E0426DaE916/>`_
 
-`Million Ether contract at Github <https://github.com/porobov/MillionEtherHomepage/>`_
+..  todo
+
+`Million Ether contract at Etherscan.io <https://etherscan.io/address/todo>`_ 
+
+`Million Ether contract at Github <https://github.com/porobov/million-ether-homepage-2-contract/>`_
 
 `Million Ether at Reddit <https://www.reddit.com/r/MillionEther/>`_
 
-`The Million Ether Smart Contract - sign in instructions (7:24) <https://youtu.be/oSwffa3tUNI>`_
+..  todo
 
 `The Million Ether Smart Contract - place ads (3:12) <https://youtu.be/mTgXJVlBVdI>`_
+
+..  todo
 
 `The Million Ether Smart Contract - buy pixels (4:45) <https://youtu.be/TzghOMKLVOg>`_

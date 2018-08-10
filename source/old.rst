@@ -1,20 +1,40 @@
 .. _old:
 
-###########
-Old version
-###########
+#############
+Older version
+#############
 
-Sell pixels to anybody. Just set the price. Buying process for the buyer will look exactly the same as if he bought it at the initial sale. You get all the money (no fees). 
+o
+o
+o
+o
+o
+o
 
-**To sell pixels:**
+**UNDER DEVELOPEMENT**
 
-- **Go to Contracts -> My Million Ether -> WRITE TO CONTRACT -> Select function -> Sell blocks.**
+o
+o
+o
+o
+o
+o
 
-From x, From y, To x, To y
-	type the coprdinates you would like to sell. Use block coordinates as described :ref:`here <coordinates>`. 
-Price for each block in wei
-	type the price for each block you are selling in wei - ether smallest denomination (`Unit converter <http://ether.fund/tool/converter>`_). 
 
-.. image:: /img/sell_blocks.jpg 
+The previous version of TheMillionEtherHomepage smart contract is at this address (todo-link). Documentation is available by choosing million-ether-homepage-1 version of this docs. The source files (.rst) are in the million-ether-homepage-1 branch of this repo (todo-link)
 
-*e.g. If you would like to sell two blocks from [1:1] to [1:2] for 20 ETH total set the Price for each block in wei to 10000000000000000000 (which is 20/2 * 10^18)*
+The main reason to terminate the previous version is that it was priced in Ether. It was launched when Ethereum price was around $8. It has the same price doubling curve, but it starts with 1 ETH. Hardly anyone would buy a 10x10 pixel block at that cost (unless ETHUSD drops significantly - let's hope it won't).
+
+**Importing blocks**
+
+There were some sales and some ads were placed though. All block ownership was imported to TheMillionEtherHomepage 2 prior to launch through this function (todo link). Ads ids were incremented accordingly as well.
+
+**Charity**
+
+Previous version is a charity project as well. All earned charity funds were transfered to Giveth.io (todo link).
+
+**Current state**
+
+The smart contract still accepts transactions. No more sales though if they occur will be imported to the new version. 
+
+There is currently no representation of the smart contract state in the web. TheMillionEtherHomepage.com (todo link) now represents only new version (link). But anyone can do their own representation using this software (todo link).

@@ -2,6 +2,23 @@
 LIGHT PAPER
 ===========
 
+o
+o
+o
+o
+o
+o
+
+**UNDER DEVELOPEMENT**
+
+o
+o
+o
+o
+o
+o
+
+
 **TheMillionEtherHomepage.com** is a decentralized advertising platform based on Ethereum blockchain.
 
 Main features

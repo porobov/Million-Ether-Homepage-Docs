@@ -1,8 +1,8 @@
+.. _buy:
+
 ##########
 BUY PIXELS
 ##########
-
-.. _buy:
 
 **Video:**
 
@@ -60,5 +60,8 @@ BUY PIXELS
 
 	To see your info written to the blockchain wait a couple of seconds until your transaction is mined (approx. 15 seconds for the Ethereum blockchain as of 12.14.2016). Go to Contracts -> My Million Ether -> Read from contract ->  Get block info type your coordinates and make sure your address appears. 
 
-Now you can place your ad (scroll down for instructions) or chose to :ref:`sell blocks <sell>` later.
+**Next steps:**
 
+- :ref:`Place your ad <ads>` 
+- :ref:`Rent out pixels <rent_out>` 
+- :ref:`Sell pixels <sell>`

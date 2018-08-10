@@ -14,9 +14,11 @@ Contents:
    rent
    ads
    withdraw
+   charity
    security
    policies
    admin
+   old
    license
 
 Indices and tables

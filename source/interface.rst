@@ -41,3 +41,7 @@ If you don't have an Ethereum address yet, `go get one <http://ethereum.stackexc
 - click ok
 
 You now should be able to see My Million Ether contract in Contracts section.
+
+**Next steps:**
+
+- :ref:`Buy pixels <buy>`

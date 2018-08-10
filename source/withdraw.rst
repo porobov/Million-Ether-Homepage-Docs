@@ -4,6 +4,8 @@
 WITHDRAW ETH
 ############
 
+.. _check_bal:
+
 **1. Check your balance**
 
 - Go to Contracts -> My Million Ether -> Read from contract ->  Get user info and paste your address.

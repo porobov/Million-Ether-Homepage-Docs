@@ -6,9 +6,9 @@ PLACE ADS
 
 **Video:**
 
-`The Million Ether Smart Contract - place ads (3:12) <https://youtu.be/mTgXJVlBVdI>`_ todo?
+`Video instructions - place ads (3:12) <https://youtu.be/mTgXJVlBVdI>`_
 
-As the most parts of this project image storage is decentralized. It is currently too expensive to place images within the blockchain we use imgur.com for image hosting. It is free and easy to use. 
+Currently all images need to be uploaded to imgur.com. It is free and easy to use.
 
 **1. Upload your image to imgur.com.**
 
@@ -22,32 +22,55 @@ As the most parts of this project image storage is decentralized. It is currentl
 
 .. image:: img/imgur.jpg
 
-- Go to Contracts -> My Million Ether -> WRITE TO CONTRACT -> Select function -> Place Image.
+**2. Make sure you can place ads**
 
-From x, From y, To x, To y
-    type coordinates to place image to (place as many 10x10 px images as you can fit within your area). If you would like to place 10x10 pixels image type the same from and to coordinates (e.g. From x  1, From y  2, To x  1, To y  2).
-Image source url
-    paste your imgur image link from the previous step (Links from other hosting services will be stored in the blockchain, but will not appear at TheMillionEtherHomepage.com)
-Ad url
-    put your website address. Make sure to put a valid url. Internationalized domain names (chinese, russian, greek, etc.) are not supported. Make sure you are not advertising anything obscene - :ref:`Read our advertising policies <policies>`. 
+You can only place ads if own or rent area. If you own an area, but rented it out to somebody, you'll have to wait until rent expires to be able to place images.
 
-Ad text
-    put your 140 character ad text which will appear when somebody hovers over your ad. Use `Twitter <https://twitter.com/>`_ or `charactercountonline.com <http://www.charactercountonline.com/>`_ to measure the length (Longer ad text will be stored in the blockchain, but appear truncated at TheMillionEtherHomepage.com)
-Send Ether
-    leave 0
+- In :ref:`contract interface <interface>` select **canAdvertise** function (in some wallets may appear under Read section or similar).
+- Specify :ref:`coordinates <coordinates>` you would like to check.
+- Click **Read** (you are not paying any gas here).
+
+You should see **True** response, meaning that you can place ads within specified area.
+
+**3. Place ads**
+
+- In :ref:`contract interface <interface>` select **placeAds** function (in some wallets may appear under Write section or similar). 
+
+- Specify function parameters:
+
+    *fromX, fromY, toX, toY:*
+        :ref:`coordinates <coordinates>` to place image to. If you would like to place only one 10x10 pixels image, type the same from and to coordinates (e.g. From x  1, From y  2, To x  1, To y  2).
+    *imageSource:*
+        paste your imgur image link from the previous step (other links will be accepted, but will not appear at TheMillionEtherHomepage.com)
+    *link:*
+        your website address. Internationalized domain names (chinese, russian, greek, etc.) are not supported. :ref:`See advertising policies <policies>`.
+    *text:*
+        put your 140 character ad text which will appear when somebody hovers over your ad. Use `Twitter <https://twitter.com/>`_ or `charactercountonline.com <http://www.charactercountonline.com/>`_ to measure length (longer ad text appear truncated)
+
+
+- Select your wallet and click **Write**.
+
+    *Amount to Send*
+        0 (do not send any ether)
+    *Gas Limit*
+        Should be calculated automatically.
+
+- Click **Generate transaction**, sign it, send it and wait until it is mined.
+
+.. note::
+
+    If you receive “It seems this transaction will fail, it may consume all the gas you send” do not send the transaction and check the coordinates.
 
 .. image:: img/place_ads.jpg 
 
 *In this example an ad occupying 4 blocks (20x20 pixels) is submitted.* 
 
-- Click Execute and confirm transaction.
+**Next steps:**
 
-.. note::
+In a couple of minutes your ad will appear at TheMillionEtherHomepage.com. If something goes wrong, error warning and further instructions will be shown instead of your text.
 
-    If you receive “It seems this transaction will fail, it may consume all the gas you send” do not send the transaction and check the coordinates. Go to Contracts -> My Million Ether -> Read from contract ->  Get block info type your coordinates and make sure your address appears.
+You are free to replace your image anytime you like.
 
-.. note::
-
-    To see your info written to the blockchain wait a couple of seconds until your transaction is mined (approx. 15 seconds for the Ethereum blockchain as of 11.17.2016). Go to Contracts -> My Million Ether -> Read from contract ->  Get block info type your coordinates and copy Image id. Go to  Contracts -> My Million Ether -> Read from contract ->  Get image info and paste your image id. 
-
-In a couple of minutes your ad will appear at TheMillionEtherHomepage.com.
+- :ref:`Rent out pixels <rent_out>` 
+- :ref:`Sell pixels <sell>`
+- :ref:`Advertising policies <policies>`.

@@ -17,7 +17,6 @@ Contents:
    charity
    security
    policies
-   admin
    old
    license
 

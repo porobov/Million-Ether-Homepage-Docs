@@ -33,41 +33,47 @@ Interaction with the platform is done through **MillionEther smart contract** si
 
 `More on smart contracts <http://blockgeeks.com/guides/smart-contracts-the-blockchain-technology-that-will-replace-lawyers/>`_
 
-Buying pixels
--------------
+Buy pixels
+----------
 Pixels are available in 10x10 pixel blocks at initial sale (USD price doubles every 10% of pixels sold). Pixels are also available from owners willing to sell. Owners define their own price in ETH. Once you buy an area of blocks, you can put an ad (image with a link and description) within that area, rent it out or sell it when the price goes up.
 
-.. image:: /img/pixel-price.jpg
+.. image:: /img/pixel-price.png
 
 *The pixel price doubles every 10% of pixels sold. This allows investment opportunities and rewards early birds.*
 
 :ref:`How to buy pixels <buy>`
 
-Selling pixels
---------------
+Sell pixels
+-----------
 If you own an area you can sell it for any price (in ETH). If you buy pixels early you can have significant profit selling them later with no fees applied.
 
 :ref:`How to sell pixels <sell>`
 
-Renting out pixels
-------------------
+Rent out pixels
+---------------
 If you own an area you can rent it out for any price per period (in ETH). One period is 24 hours. Renters will be able to place (and replace) their ads within rented area.
 
 :ref:`How to rent out pixels <rent_out>`
 
-Renting pixels
---------------
-If an area of blocks is avalable for rent, you can rent this area for a specified number of 24-hour periods. You can place (and replace) your ads within rented area until rent is up.
+Rent pixels
+-----------
+If an area of blocks is available for rent, you can rent this area for a specified number of 24-hour periods. You can place (and replace) your ads within rented area until rent is up. Until payed rent period is over even area owner cannot replace your ad. 
 
 :ref:`How to rent pixels <rent>`
 
-Placing ads
------------
+Place ads
+---------
 An ad is an image with description and a link to your website. You can place as many images as you can fit within owned area. You can also replace images unlimited number of times. Description is 140  characters long.
 
 :ref:`How to place ads <ads>`
 
 *Please read the rules for images allowed on the platform:* :ref:`Advertising policies <policies>`
+
+.. _erc721:
+
+Manage ERC721 Tokens
+--------------------
+Every 10x10 pixles block is a ERC-721 token. All standard ERC-721 methods can be applied to it.
 
 Links
 -----

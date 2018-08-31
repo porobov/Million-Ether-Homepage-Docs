@@ -4,25 +4,30 @@
 WITHDRAW ETH
 ############
 
+Income from sold and rented pixels goes to your balance within the contract.
+
+Every excess funds you send to buy or rent functions are returned to your balance as well. 
+
 .. _check_bal:
 
 **1. Check your balance**
 
-- Go to Contracts -> My Million Ether -> Read from contract ->  Get user info and paste your address.
+- In :ref:`contract interface <interface>` select **balances** function (in some wallets may appear under Read section or similar).
+- Paste your address.
+- Click **Read** (you are not paying any gas here).
 
-.. image:: /img/check_balance.png 
-
+Your balance will be displayed in wei (`Ether unit converter <http://ether.fund/tool/converter>`_). 
 
 **2. Withdraw**
 
-- Go to Contracts -> My Million Ether -> WRITE TO CONTRACT -> Select function -> Withdraw All
+- In :ref:`contract interface <interface>` select **withdraw** function (in some wallets may appear under Write section or similar).
+- Select your wallet and click **Write**.
+
+    *Amount to Send*
+        0 (do not send any ether)
+    *Gas Limit*
+        Should be calculated automatically.
 
 .. image:: /img/withdraw.png 
 
-- Click Execute and confirm transaction. 
-
-In a couple of minutes (depending on block mining speed) your should be able to see your funds in your wallet. 
-
-.. note::
-
-    Make sure to have at least 0,003 ether on your account as even withdrawing funds requires a little ammount of gas.
+After a while (depending on block mining speed) you should be able to see your funds in your wallet.

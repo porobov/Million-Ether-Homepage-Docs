@@ -27,7 +27,8 @@ The main reason to terminate the previous version is that it was priced in Ether
 
 **Importing blocks**
 
-There were some sales and some ads were placed though. All block ownership was imported to TheMillionEtherHomepage 2 prior to launch through this function (todo link). Ads ids were incremented accordingly as well.
+There were some sales and some ads were placed though. All block ownership was imported to TheMillionEtherHomepage 2 prior to launch through this function (todo link). Ads ids were incremented accordingly as well. 
+Whether new sales occur they will not be imported to the new version. 
 
 **Charity**
 

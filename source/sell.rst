@@ -4,22 +4,6 @@
 SELL PIXELS
 ###########
 
-o
-o
-o
-o
-o
-o
-
-**UNDER DEVELOPEMENT**
-
-o
-o
-o
-o
-o
-o
-
 **1. Sell area**
 
 Sell pixels to anybody. Just set the price. Buying process for buyers will look exactly the same as if they bought it at the initial sale. You get all the money (no fees).
@@ -31,7 +15,9 @@ Sell pixels to anybody. Just set the price. Buying process for buyers will look 
     *fromX, fromY, toX, toY:*
     	:ref:`coordinates <coordinates>` you would like to sell.
     *priceForEachBlockWei:*
-    	price for each 10x10 pixel block in wei (`Ether unit converter <http://ether.fund/tool/converter>`_).
+    	price for each 10x10 pixel block in wei (`Ether unit converter <https://etherconverter.online/>`_).
+
+.. image:: /img/sell_blocks.png
 
 - Click **Write**
 
@@ -40,15 +26,15 @@ Sell pixels to anybody. Just set the price. Buying process for buyers will look 
     *Gas Limit*
         Should be calculated automatically.
 
-- Click **Generate transaction**, sign it, send it and wait until it is mined.
-
-.. image:: /img/sell_blocks.jpg 
+- Click **Generate transaction**, then **Yes, I am sure! Make transaction** and wait until it is mined.
 
 *e.g. If you would like to sell two blocks from [1:1] to [1:2] for 20 ETH total set the Price for each block in wei to 10000000000000000000 (which is 20/2 * 10^18)*
 
+.. image:: /img/sell_blocks_confirm.png
+
 .. note::
 
-    todo If you receive “It seems this transaction will fail, it may consume all the gas you send” or something similar do not send the transaction. Make sure you're typing in the right coordinates (:ref:`make sure the area belongs to you <area_ownership>`
+    If Gas Limit box remains highlighted in red do not send the transaction. Make sure you're typing in the right coordinates (:ref:`make sure the area belongs to you <area_ownership>`
 
 **2. Make sure that the area is now on sale**
 
@@ -58,11 +44,11 @@ Do it the same way as when you :ref:`checked price and availability of an area <
 
 - Specify the coordinates you would like to check.
 
-- - Click **Read** (you are not paying any gas here) and check that the total price you see is the one you want. 
+- Click **Read** (you are not paying any gas here) and check that the total price you see is the one you want. 
 
 .. note::
 
-    Remember that when selling area you specify price for each 10x10 pixels block. Here you get the total price for the whole area. The price is wei (`Ether unit converter <http://ether.fund/tool/converter>`_).
+    Remember that when selling area you specify price for each 10x10 pixels block. Here you get the total price for the whole area. The price is wei (`Ether unit converter <https://etherconverter.online/>`_).
 
 .. note::
 

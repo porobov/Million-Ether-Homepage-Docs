@@ -4,38 +4,26 @@
 Older version
 #############
 
-o
-o
-o
-o
-o
-o
+The previous version of TheMillionEtherHomepage smart contract is at this address_. Documentation is available by choosing million-ether-homepage-1 version of this docs. Source files are available at Github_.
 
-**UNDER DEVELOPEMENT**
-
-o
-o
-o
-o
-o
-o
-
-
-The previous version of TheMillionEtherHomepage smart contract is at this address (todo-link). Documentation is available by choosing million-ether-homepage-1 version of this docs. The source files (.rst) are in the million-ether-homepage-1 branch of this repo (todo-link)
-
-The main reason to terminate the previous version is that it was priced in Ether. It was launched when Ethereum price was around $8. It has the same price doubling curve, but it starts with 1 ETH. Hardly anyone would buy a 10x10 pixel block at that cost (unless ETHUSD drops significantly - let's hope it won't).
+The main reason to terminate the previous version is that it is priced in Ether. Starting price was 1 ETH. It was launched when Ethereum price was around $8. Hardly anyone would buy a 10x10 pixel block for 1 ETH nowadays (unless ETHUSD drops significantly - let's hope it won't).
 
 **Importing blocks**
 
-There were some sales and some ads were placed though. All block ownership was imported to TheMillionEtherHomepage 2 prior to launch through this function (todo link). Ads ids were incremented accordingly as well. 
-Whether new sales occur they will not be imported to the new version. 
+Sales and ads were imported to the new version. All block ownership was imported prior to launch through adminImportOldMEBlock_ function. Ads ids were incremented accordingly as well. Whether new sales occur they will not be imported to the new version.
 
 **Charity**
 
-Previous version is a charity project as well. All earned charity funds were transfered to Giveth.io (todo link).
+Previous version is a charity project as well. All earned charity funds were donated to Giveth.io and can be tracked through this `Google Spreadsheet file`_.
 
 **Current state**
 
 The smart contract still accepts transactions. No more sales though if they occur will be imported to the new version. 
 
-There is currently no representation of the smart contract state in the web. TheMillionEtherHomepage.com (todo link) now represents only new version (link). But anyone can do their own representation using this software (todo link).
+There is currently no representation of the smart contract state in the web. TheMillionEtherHomepage.com now represents only new version.
+
+
+.. _Github: https://github.com/porobov/MillionEtherHomepage
+.. _address: https://etherscan.io/address/0x15dbdB25f870f21eaf9105e68e249E0426DaE916
+.. _adminImportOldMEBlock: https://github.com/porobov/million-ether-homepage-2-contract/blob/bbff20979b1f511e27458563a9ca82f038d5103e/contracts/MEH.sol#L275
+.. _Google Spreadsheet file: https://docs.google.com/spreadsheets/d/e/2PACX-1vSSym40-E4ZJvBWcQ87C57MeCz5FfjoHnNxG9FzjjMs5wOMrxFeLesFpXJrrf1jneWV05xubp12Ok_6/pubhtml

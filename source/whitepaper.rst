@@ -2,23 +2,6 @@
 LIGHT PAPER
 ===========
 
-o
-o
-o
-o
-o
-o
-
-**UNDER DEVELOPEMENT**
-
-o
-o
-o
-o
-o
-o
-
-
 **TheMillionEtherHomepage.com** is a decentralized advertising platform based on Ethereum blockchain.
 
 Main features
@@ -67,8 +50,6 @@ An ad is an image with description and a link to your website. You can place as 
 
 :ref:`How to place ads <ads>`
 
-*Please read the rules for images allowed on the platform:* :ref:`Advertising policies <policies>`
-
 .. _erc721:
 
 Manage ERC721 Tokens
@@ -78,18 +59,8 @@ Every 10x10 pixles block is a ERC-721 token. All standard ERC-721 methods can be
 Links
 -----
 
-..  todo
-
-`Million Ether contract at Etherscan.io <https://etherscan.io/address/todo>`_ 
+`Million Ether contract at Etherscan.io <https://etherscan.io/address/0xCEf41878Db032586C835eE0890484399402A64f6>`_ 
 
 `Million Ether contract at Github <https://github.com/porobov/million-ether-homepage-2-contract/>`_
 
 `Million Ether at Reddit <https://www.reddit.com/r/MillionEther/>`_
-
-..  todo
-
-`The Million Ether Smart Contract - place ads (3:12) <https://youtu.be/mTgXJVlBVdI>`_
-
-..  todo
-
-`The Million Ether Smart Contract - buy pixels (4:45) <https://youtu.be/TzghOMKLVOg>`_

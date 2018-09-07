@@ -4,21 +4,6 @@
 RENT PIXELS
 ###########
 
-o
-o
-o
-o
-o
-o
-
-**UNDER DEVELOPEMENT**
-
-o
-o
-o
-o
-o
-o
 You can rent an area if the owner set the rent price and if there is no active rent.
 
 .. _rent_price:

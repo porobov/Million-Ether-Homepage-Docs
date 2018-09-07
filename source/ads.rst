@@ -32,6 +32,8 @@ You can only place ads if own or rent area. If you own an area, but rented it ou
 
 You should see **True** response, meaning that you can place ads within specified area.
 
+.. image:: img/can_advertise.png
+
 **3. Place ads**
 
 - In :ref:`contract interface <interface>` select **placeAds** function (in some wallets may appear under Write section or similar). 
@@ -47,6 +49,8 @@ You should see **True** response, meaning that you can place ads within specifie
     *text:*
         put your 140 character ad text which will appear when somebody hovers over your ad. Use `Twitter <https://twitter.com/>`_ or `charactercountonline.com <http://www.charactercountonline.com/>`_ to measure length (longer ad text appear truncated)
 
+.. image:: img/place_ads.png
+*In this example an ad occupying 2 blocks (10x20 pixels) is submitted.*
 
 - Select your wallet and click **Write**.
 
@@ -57,13 +61,11 @@ You should see **True** response, meaning that you can place ads within specifie
 
 - Click **Generate transaction**, sign it, send it and wait until it is mined.
 
+.. image:: img/place_ads_confirm.png
+
 .. note::
 
-    If you receive “It seems this transaction will fail, it may consume all the gas you send” do not send the transaction and check the coordinates.
-
-.. image:: img/place_ads.jpg 
-
-*In this example an ad occupying 4 blocks (20x20 pixels) is submitted.* 
+    If Gas Limit box remains highlighted in red do not send the transaction and check the coordinates.
 
 **Next steps:**
 

@@ -16,7 +16,7 @@ Every excess funds you send to buy or rent functions are returned to your balanc
 - Paste your address.
 - Click **Read** (you are not paying any gas here).
 
-Your balance will be displayed in wei (`Ether unit converter <http://ether.fund/tool/converter>`_). 
+Your balance will be displayed in wei (`Ether unit converter <https://etherconverter.online/>`_). 
 
 **2. Withdraw**
 
@@ -27,6 +27,7 @@ Your balance will be displayed in wei (`Ether unit converter <http://ether.fund/
         0 (do not send any ether)
     *Gas Limit*
         Should be calculated automatically.
+- Click **Generate transaction**, then **Yes, I am sure! Make transaction** and wait until it is mined.
 
 .. image:: /img/withdraw.png 
 

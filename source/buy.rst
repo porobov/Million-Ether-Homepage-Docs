@@ -4,22 +4,6 @@
 BUY PIXELS
 ##########
 
-o
-o
-o
-o
-o
-o
-
-**UNDER DEVELOPEMENT**
-
-o
-o
-o
-o
-o
-o
-
 .. _coordinates:
 
 **1. Decide which coordinates you would like to buy.**
@@ -43,12 +27,12 @@ Pixels are sold in 10x10 pixel blocks. There are 100x100 blocks available (10 00
     	Type “from block” and “to block” coordinates if you are buying several blocks. If you would like to buy just one block type the same from and to coordinates (e.g. From x 1, From y 2, To x 1, To y  2). 
 
 - Click **Read** (you are not paying any gas here) and copy the price.
-    You'll ether get a price in wei (`ether unit converter <http://ether.fund/tool/converter>`_) or zero price meaning that some or all of the blocks are already bought and owner is not willing to sell.
+    You'll ether get a price in wei (`ether unit converter <https://etherconverter.online/>`_) or zero price meaning that some or all of the blocks are already bought and owner is not willing to sell.
 
 
 .. image:: img/block_price.png
 
-*In this example 4 blocks (20x20 pixels) in the left upper corner are bought. The price here is 4 USD, shown in wei according to current ETHUSD price.*
+*In this example 2 blocks (10x20 pixels) in the left upper corner are bought. The price here is 2 USD, shown in wei according to current ETHUSD price.*
 
 **3. Buy area**
 
@@ -59,6 +43,8 @@ Pixels are sold in 10x10 pixel blocks. There are 100x100 blocks available (10 00
     *From x, From y, To x, To y*
         Same as previous step 
 
+.. image:: img/buy_blocks.png
+
 - Select your wallet and click **Write**.
 
     *Amount to Send*
@@ -66,13 +52,13 @@ Pixels are sold in 10x10 pixel blocks. There are 100x100 blocks available (10 00
     *Gas Limit*
         Should be calculated automatically.
 
-- Click **Generate transaction**, sign it, send it and wait until it is mined.
+.. image:: img/buy_blocks_confirm.png
 
-.. image:: img/buy_blocks.png
+- Click **Generate transaction**, then **Yes, I am sure! Make transaction** and wait until it is mined.
 
 .. note::
 
-	todo If you receive “It seems this transaction will fail, it may consume all the gas you send” or something similar do not send the transaction. Check the availability and price again - maybe someone has already bought the blocks you are trying to buy. Another reason may be buying too many blocks (more than 38) at once causing insufficient gas.
+	If Gas Limit box remains highlighted in red do not send the transaction. Check the availability and price again - maybe someone has already bought the blocks you are trying to buy. Another reason may be buying too many blocks (more than 38) at once causing insufficient gas.
 
 .. _area_ownership:
 
@@ -86,7 +72,9 @@ Pixels are sold in 10x10 pixel blocks. There are 100x100 blocks available (10 00
 - Click **Read**. 
 
     You'll see an address. Make sure it is yours. If no address appears (or it is 0x), the block doesn't belong to anybody. 
- 
+
+.. image:: img/block_owner.png
+
 **Next steps:**
 
 Now the area of pixels belongs to you. Next you can:

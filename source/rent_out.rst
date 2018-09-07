@@ -4,23 +4,6 @@
 RENT OUT PIXELS
 ###############
 
-
-o
-o
-o
-o
-o
-o
-
-**UNDER DEVELOPEMENT**
-
-o
-o
-o
-o
-o
-o
-
 Rent out area you own. Anybody will be able to rent it (90 days max) for the price you specified. You get all the money with no fees. 
 
 Only renter (not owner) is able to place ads within rented area until rent expires. Owner is still able to sell rented area.
@@ -36,6 +19,8 @@ Only renter (not owner) is able to place ads within rented area until rent expir
     *rentPricePerPeriodWei:*
         rent price per block per day in wei (max is 90 days).
 
+.. image:: img/rent_out_area.png
+
 - Select your wallet and click **Write**.
 
     *Amount to Send*
@@ -43,7 +28,9 @@ Only renter (not owner) is able to place ads within rented area until rent expir
     *Gas Limit*
         Should be calculated automatically.
 
-- Click **Generate transaction**, sign it, send it and wait until it is mined.
+- Click **Generate transaction**, then **Yes, I am sure! Make transaction** and wait until it is mined.
+
+.. image:: img/rent_out_area_confirm.png
 
 **2. (Optional) Make sure that the area is available for rent**.
 
@@ -62,7 +49,7 @@ Same as :ref:`Checking rent status and getting rent price <rent_price>` in Rent 
 
 .. note::
 
-    Remember that when renting area out you specify price per day per 10x10 pixels block. Here you get the total price for the whole area. Divide it by the number of blocks in area and get your rent price per day per block. The price is wei (`Ether unit converter <http://ether.fund/tool/converter>`_).
+    Remember that when renting area out you specify price per day per 10x10 pixels block. Here you get the total price for the whole area. Divide it by the number of blocks in area and get your rent price per day per block. The price is wei (`Ether unit converter <https://etherconverter.online/>`_).
 
 Now the area is available for rent. When somebody rents it you'll get eth. After that you'll need to withdraw it from your balance. Until then you are still able to place ads and cancel rent or set another rent price. Even after somebody rents your area you can sell it. 
 
@@ -79,7 +66,7 @@ If somebody already rented your area you cannot cancel it. But you can cancel fu
     fromX, fromY, toX, toY:
         :ref:`coordinates <coordinates>` you no longer want to rent out.
     rentPricePerPeriodWei:
-        set price to 0.
+        **set price to 0**.
 
 - Select your wallet and click **Write**.
 

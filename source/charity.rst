@@ -4,22 +4,6 @@
 Charity
 #######
 
-o
-o
-o
-o
-o
-o
-
-**UNDER DEVELOPEMENT**
-
-o
-o
-o
-o
-o
-o
-
 .. _charities:
 
 **Preferred charity organizations**
@@ -63,18 +47,9 @@ For a more thorough examination:
 - Check LogCharityTransfer_ events to see where the charity funds go.
 - If any of the funds were forwarded through the `forwarding address`_ see where the charity funds go through Etherscan (the address is used for charity transactions only).
 
-
-
 .. note::
 
     Most of the charitable organizations in the list are centralized. There is no way to control further usage of funds.
-
-
-
-
-
-
-
 
 
 .. _charityVault: https://github.com/porobov/million-ether-homepage-2-contract/blob/f72ca9526ad25934bff36e7c7691e84abdd7a6ef/contracts/Market.sol#L36
@@ -82,6 +57,6 @@ For a more thorough examination:
 .. _adminTransferCharity: https://github.com/porobov/million-ether-homepage-2-contract/blob/f72ca9526ad25934bff36e7c7691e84abdd7a6ef/contracts/Market.sol#L168
 .. _LogCharityTransfer: https://github.com/porobov/million-ether-homepage-2-contract/blob/f72ca9526ad25934bff36e7c7691e84abdd7a6ef/contracts/Market.sol#L48
 .. _charityPayed: https://github.com/porobov/million-ether-homepage-2-contract/blob/f72ca9526ad25934bff36e7c7691e84abdd7a6ef/contracts/Market.sol#L37
-.. _forwarding address: https://todo
+.. _forwarding address: https://etherscan.io/address/0xed4799B6fc0d69571e5c26676b88e15588ff1bFf
 .. _Google Spreadsheet file: https://docs.google.com/spreadsheets/d/e/2PACX-1vSSym40-E4ZJvBWcQ87C57MeCz5FfjoHnNxG9FzjjMs5wOMrxFeLesFpXJrrf1jneWV05xubp12Ok_6/pubhtml
 .. _repo: https://github.com/porobov/charities-accepting-ether

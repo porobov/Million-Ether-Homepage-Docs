@@ -4,6 +4,8 @@
 BUY PIXELS
 ##########
 
+TheMillionEtherHomepage.com does not support Metamask currently. Interaction is done through smart contract directly. Instructions are below. 
+
 .. _coordinates:
 
 **1. Decide which coordinates you would like to buy.**

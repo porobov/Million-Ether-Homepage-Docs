@@ -4,6 +4,8 @@ LIGHT PAPER
 
 **TheMillionEtherHomepage.com** is a decentralized advertising platform based on Ethereum blockchain.
 
+.. image:: /img/Logo1000x1000.png
+
 Main features
 -------------
 1. A 1000x1000 pixel field is displayed at `TheMillionEtherHomepage.com <http://themillionetherhomepage.com/>`_

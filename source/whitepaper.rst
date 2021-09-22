@@ -2,9 +2,14 @@
 LIGHT PAPER
 ===========
 
+Now paused!
+-----------
+Both 2016 and 2018 versions are now paused. Exploring the possibility of switching back to 2016 version, which seems a more valuable artifact. If there's a meaningful way back all blocks bought in 2018 will be transferred back into the past. Stay tuned.
+
 **TheMillionEtherHomepage.com** is a decentralized advertising platform based on Ethereum blockchain.
 
 .. image:: /img/Logo1000x1000.png
+
 
 Main features
 -------------
